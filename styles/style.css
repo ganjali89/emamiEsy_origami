@@ -9,7 +9,7 @@ header img{
     position: absolute;
     width: 10%;
     height: 140%;
-    left: 80%;
+    left: 79%;
 }
 
 body {
@@ -56,10 +56,10 @@ header li a{
     top: -10%;
     width: 10%;
     height: 150%;
-    left: 89%;
+    left: 88%;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 140%;
     line-height: 30px;
 }
 
@@ -69,5 +69,11 @@ header li a{
     width: 4%;
     left: 1%;
     top: 9%;
-    
+}
+
+.button{
+    position: absolute;
+    background: #EF801A;
+    border-radius: 14px;
+    color: white;
 }
