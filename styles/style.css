@@ -70,10 +70,3 @@ header li a{
     left: 1%;
     top: 9%;
 }
-
-.button{
-    position: absolute;
-    background: #EF801A;
-    border-radius: 14px;
-    color: white;
-}
