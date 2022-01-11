@@ -1,6 +1,4 @@
 /*
-*LCD/LED:1440|1024
-*/
 html{
     font-size: 100%;
 }
@@ -30,7 +28,7 @@ header {
     position: fixed;
     height: 63px;
     width: 100%;
-    left: 0px;
+    left: 0%;
     top: 1%;
     display: flex;
     align-items: center;
@@ -42,25 +40,12 @@ header * {
 }
 
 header li {
-    margin: 20px;
+    margin: 60%;
 }
 
 header li a{
     color: black;
     text-decoration: none;
-}
-
-#title{
-    position: absolute;
-    position: absolute;
-    top: -10%;
-    width: 10%;
-    height: 150%;
-    left: 88%;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 140%;
-    line-height: 30px;
 }
 
 #icon{
@@ -69,4 +54,42 @@ header li a{
     width: 4%;
     left: 1%;
     top: 9%;
+    color: rgb(30, 248, 1);
+} */
+
+#nav{
+    background-color:#65C9FF70!important;
+    height: 58px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+
+}
+
+#icon_logo{
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    left: 1025px;
+    right: 0px;
+    top: -14px;
+
+}
+
+#title{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1125px;
+top: 15px;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+}
+
+#icon_login{
+    width: 40px;
+    height: 40px;
 }
